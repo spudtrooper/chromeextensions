@@ -4,7 +4,7 @@
   "name": "One-click parodify.com posting",
   "short_name": "Parodify",
   "description": "Auto fills parodify.com posts.",
-  "version": "1.7",
+  "version": "1.8",
 
   "background": {
     "page": "background.html",

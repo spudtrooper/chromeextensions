@@ -1,6 +1,10 @@
-Reddit color
+Parodify Post
 ============
 
-This is a chrome extension to colorize reddit scores. It is published here:
+This is a chrome extension to post articles to parodify.com with one-click.
 
-https://chrome.google.com/webstore/detail/reddit-color/imhmomglgdppdhenmlofaknhbecofhpp
+Chrome extension page:
+
+https://chrome.google.com/webstore/developer/edit/nbajlhnbfgpgajljfcooahneamalibnd
+
+This is not affiliated with the site.
