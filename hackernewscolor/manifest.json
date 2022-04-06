@@ -3,8 +3,8 @@
   
   "name": "Hacker News Color",
   "short_name": "Hacker News Color",
-  "description": "Colors the scores of Hacker News pages according to score.",
-  "version": "1.1",
+  "description": "Colors and sorts the scores of Hacker News pages according to score.",
+  "version": "1.2",
   
   "content_scripts": [
     {
