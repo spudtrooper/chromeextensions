@@ -28,6 +28,16 @@ function colorScores() {
 
 function sortRows() {
   let tab = document.querySelector('table[class="itemlist"]');
+  if (!tab) {
+    tab = Array.from(document.getElementsByTagName('table')).find(tab =>
+      tab.id !== 'hnmain' &&
+      !!Array.from(tab.getElementsByTagName('tr')).find(tr => tr.className === 'athing'));
+  }
+  if (!tab) {
+    console.log('could not find table, give up on life');
+    return;
+  }
+  console.log('found table', tab);
   let tbody = tab.getElementsByTagName('tbody')[0];
   let athings = Array.from(tbody.getElementsByClassName('athing'));
   let findScore = tr => {
@@ -54,7 +64,7 @@ function sortRows() {
       next: tr.nextSibling,
       score: score,
     });
-  })
+  });
   athingsAndScores.sort((a, b) => {
     return b.score - a.score;
   });
